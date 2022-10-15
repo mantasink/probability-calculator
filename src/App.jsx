@@ -1,6 +1,8 @@
 import './App.scss';
 import { Container, Stack, Typography } from '@mui/material';
-import AtLeastOnce from './component/AtLeastOnce';
+import AtLeastOnce from './component/AtLeastOnce/AtLeastOnce';
+import AtLeastOnceMultiple
+  from './component/AtLeastOnceMultiple/AtLeastOnceMultiple';
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
             <Typography variant="h3" component="h1">
               Probability Calculator
             </Typography>
-            <Typography variant="h5">At Least Once</Typography>
+            <Typography variant="h5">At Least Once (Same Odds)</Typography>
             <AtLeastOnce />
+            <Typography variant="h5">At Least Once (Different Odds)</Typography>
+            <AtLeastOnceMultiple />
           </Stack>
         </Container>
       </main>
