@@ -1,0 +1,9 @@
+@import "src/variables";
+
+.AtLeastOnce {
+  &-inputs {
+    display: flex;
+    gap: $spacing;
+    align-items: center;
+  }
+}

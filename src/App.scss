@@ -1,0 +1,21 @@
+@import "variables";
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex: 1;
+    margin: $spacing;
+  }
+
+  header {
+    margin: $spacing;
+  }
+
+  footer {
+    margin: $spacing;
+  }
+}
+
